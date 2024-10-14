@@ -1,0 +1,777 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* NAVBAR START */
+
+.nav-bar {
+  padding: 50px;
+}
+
+.mob {
+  display: none;
+}
+
+ul.desk {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #222;
+  text-align: center;
+  padding-left: 16px;
+  padding-bottom: 7px;
+  padding-right: 14px;
+  padding-top: 13px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.loogo {
+  font-size: 23px;
+  padding: 12px 22em 12px 0;
+  font-weight: normal;
+}
+.arr {
+  text-decoration: underline;
+}
+
+article {
+  padding: 55px;
+}
+div.head {
+  margin: 2em 0 6em 0;
+}
+.head h1 {
+  font-size: 4.8em;
+  font-weight: normal;
+  color: #000;
+  text-shadow: 2px 0.1px #000;
+}
+.imgg {
+  width: 100%;
+}
+.para {
+  display: block;
+  width: 28em;
+  line-height: 1.5em;
+  margin: 5em 0 4em 0;
+  color: #000;
+  font-size: 21px;
+  text-align: left;
+}
+p a {
+  color: #000;
+  text-shadow: 0.8px 0.1px #000;
+  font-size: 22px;
+}
+.para-link {
+  margin: 1em 0 1em 0;
+}
+
+article {
+  padding: 55px;
+}
+
+.b-art {
+  margin: 0;
+  padding: 0;
+}
+div.dir {
+  background-color: #000;
+  height: 30em;
+  color: #fff;
+  padding: 120px 150px 55px 55px;
+}
+.bb {
+  margin-right: 70px;
+  padding-right: 70px;
+}
+.bb p {
+  font-size: 4.9em;
+  font-weight: 600;
+  text-shadow: 0.8px 0.1px #fff;
+}
+.see p a {
+  color: #fff;
+  font-size: 15px;
+  text-shadow: 0.8px 0.1px #fff;
+}
+.see {
+  margin: 3.8em 0;
+}
+
+.rec small {
+  color: #8080804c;
+  font-size: 1.6em;
+  font-weight: 600;
+}
+.rec {
+  margin: 4em 0 0 0;
+  padding: 55px 0 20px 55px;
+}
+
+.box-model {
+  display: flex;
+  padding: 20px;
+}
+.box-model1 {
+  display: flex;
+}
+.row img {
+  width: 100%;
+}
+.img-model {
+  padding: 40px;
+}
+.row p {
+  font-size: 22px;
+  margin: 1.8em 0 0 0;
+}
+
+.col2 {
+  margin-top: 4em;
+}
+.a-work {
+  padding: 0 55px;
+}
+.a-work a {
+  font-size: 22px;
+  color: #000;
+  text-shadow: 0.8px 0.1px #000;
+}
+
+article.dire {
+  background-color: #000;
+  height: 100%;
+  color: #fff;
+  display: block;
+  padding: 55px 55px 15px 55px;
+  margin-top: 7em;
+}
+.hh h2 {
+  text-align: center;
+  font-size: 36px;
+  padding: 40px;
+  text-shadow: 0.3px 0.1px #fff;
+  font-weight: normal;
+}
+.cl-img {
+  display: flex;
+  justify-content: space-between;
+}
+article.dire img {
+  width: 11%;
+}
+.cl-row {
+  display: flex;
+  justify-content: center;
+}
+.cl-row img {
+  margin: 4em 9em;
+}
+
+.head1 h1 {
+  font-size: 4.9em;
+  font-weight: normal;
+  color: #000;
+  text-shadow: 2px 0.1px #000;
+}
+.last {
+  margin: 4em 0 2em 0;
+}
+.sch {
+  margin: 4em 0 4em 0;
+}
+
+.foot-container-mobile {
+  display: none;
+}
+
+/* Desktop */
+.foot-container {
+  display: flex;
+}
+.copy {
+  margin-right: 6em;
+  padding: 50px;
+}
+.contained {
+  display: flex;
+  margin-left: 10em;
+}
+.contain1,
+.contain2,
+.contain3 {
+  padding: 29px;
+  margin: 0 32px;
+}
+.contain11 {
+  position: relative;
+  top: 9%;
+}
+.contain3 {
+  padding-right: 5px;
+}
+.copy span {
+  font-size: 20px;
+}
+.copy span a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: underline;
+}
+.contained ul li {
+  list-style: none;
+  font-size: 22px;
+  line-height: 1.8;
+}
+.pp-link a {
+  text-decoration: underline;
+}
+.para-link a {
+  text-decoration: underline;
+}
+.para-link i {
+  text-decoration: underline;
+}
+.a-work a {
+  text-decoration: underline;
+}
+.arr i {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+  @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    box-sizing: border-box;
+    color: #000;
+  }
+
+  header {
+    height: 53px;
+  }
+  .nav-bar {
+    height: 53px;
+  }
+
+  .mob {
+    display: block;
+  }
+  .lli {
+    display: none;
+  }
+
+  .loogo {
+    font-size: 23px;
+    padding: 12px 12px 0 0;
+    font-weight: normal;
+  }
+
+  input,
+  ul.submenu {
+    display: none;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+
+  ul.submenu {
+    background-color: #fff;
+  }
+
+  ul.submenu li {
+    display: block;
+    position: relative;
+    top: 6;
+    background-color: #fff;
+  }
+
+  ul.submenu li a {
+    text-align: left;
+    padding: 18px;
+    color: #222;
+    font-size: 20px;
+    background-color: #fff;
+  }
+
+  label {
+    position: relative;
+    cursor: pointer;
+    width: 15px;
+    color: #222;
+    margin: 12px 12px 0 0;
+    background-color: #fff;
+  }
+
+  input:checked ~ ul.submenu {
+    display: grid;
+    width: 100vw;
+    padding: 8px;
+    background-color: #fff;
+    border-right: 100px solid #fff;
+  }
+  .arr {
+    text-decoration: underline;
+  }
+
+  main {
+  }
+
+  article {
+    padding: 20px;
+  }
+  div.head {
+    margin: 2em 0 6em 0;
+  }
+  .head h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #000;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .imgg {
+    width: 100%;
+  }
+  .para {
+    display: block;
+    width: 17em;
+    line-height: 1.5em;
+    margin: 4em 0 4em 0;
+    color: #000;
+    font-size: 21px;
+    text-align: left;
+  }
+  p a {
+    color: #000;
+    text-shadow: 0.8px 0.1px #000;
+    font-size: 22px;
+  }
+  .para-link {
+    margin: 1.5em 0 1.5em 0;
+  }
+
+  .b-art {
+    margin: 0;
+    padding: 0;
+  }
+  div.dir {
+    background-color: #000;
+    height: 20em;
+    color: #fff;
+    padding: 50px 5px 25px 20px;
+  }
+  .bb {
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+  .bb p {
+    font-size: 2.5em;
+    font-weight: normal;
+    /* text-shadow: 0.8px 0.1px #fff; */
+  }
+  .see p a {
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 0.8px 0.1px #fff;
+    text-decoration: underline;
+  }
+  .see i {
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 0.8px 0.1px #fff;
+    text-decoration: underline;
+  }
+  .see {
+    margin: 3.5em 0;
+  }
+
+  .rec small {
+    color: #8080804c;
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+  .rec {
+    margin: 3em 0 0 0;
+    padding: 30px 0 20px 20px;
+  }
+
+  .box-model {
+    display: grid;
+    padding: 20px;
+  }
+  .box-model1 {
+    display: grid;
+  }
+  .row img {
+    width: 100%;
+  }
+  .img-model {
+    padding: 10px;
+  }
+  .row p {
+    font-size: 22px;
+    margin: 1.8em 0 0 0;
+  }
+
+  .col2 {
+    margin-top: 4em;
+  }
+
+  .a-work {
+    padding: 25px 25px 20px 25px;
+  }
+  .a-work a {
+    font-size: 22px;
+    color: #000;
+    text-shadow: 0.8px 0.1px #000;
+    text-decoration: underline;
+  }
+
+  article.dire {
+    background-color: #000;
+    height: 100%;
+    color: #fff;
+    display: grid;
+    padding: 25px 25px 18px 25px;
+    margin-top: 7em;
+  }
+  .hh h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+    /* text-shadow: 0.3px 0.1px #fff; */
+    font-weight: normal;
+  }
+  .cl-img {
+    display: grid;
+    justify-content: space-between;
+  }
+  article.dire img {
+    width: 29%;
+  }
+  .cl-row {
+    display: grid;
+    justify-content: center;
+  }
+  .cl-row img {
+    margin: 3em 9em;
+  }
+  .head1 h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #000;
+  }
+  .last {
+    margin: 4em 0 2em 0;
+  }
+  .sch {
+    margin: 4em 0 3em 0;
+  }
+  .foot-container {
+    display: none;
+  }
+  .foot-copy p {
+    font-size: 20px;
+  }
+  .foot-copy a {
+    font-size: 18px;
+    font-weight: normal;
+    text-shadow: none;
+    text-decoration: underline;
+  }
+  .foot-container-mobile {
+    display: grid;
+    padding: 20px;
+  }
+  div.foot-all {
+    display: flex;
+    justify-content: flex-start;
+  }
+  ul.foot {
+    display: grid;
+    line-height: 0.38;
+    list-style: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    box-sizing: border-box;
+    color: #000;
+  }
+
+  header {
+    height: 53px;
+  }
+  .nav-bar {
+    height: 53px;
+  }
+
+  .mob {
+    display: block;
+  }
+  .lli {
+    display: none;
+  }
+
+  .loogo {
+    font-size: 23px;
+    padding: 12px 12px 0 0;
+    font-weight: normal;
+  }
+
+  input,
+  ul.submenu {
+    display: none;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+
+  ul.submenu {
+    background-color: #fff;
+  }
+
+  ul.submenu li {
+    display: block;
+    position: relative;
+    top: 6;
+    background-color: #fff;
+  }
+
+  ul.submenu li a {
+    text-align: left;
+    padding: 18px;
+    color: #222;
+    font-size: 20px;
+    background-color: #fff;
+  }
+
+  label {
+    position: relative;
+    cursor: pointer;
+    width: 15px;
+    color: #222;
+    margin: 12px 12px 0 0;
+    background-color: #fff;
+  }
+
+  input:checked ~ ul.submenu {
+    display: grid;
+    width: 100vw;
+    padding: 8px;
+    background-color: #fff;
+    border-right: 100px solid #fff;
+  }
+  .arr {
+    text-decoration: underline;
+  }
+
+  main {
+  }
+
+  article {
+    padding: 20px;
+  }
+  div.head {
+    margin: 2em 0 6em 0;
+  }
+  .head1 h1 {
+    font-weight: normal;
+  }
+  .last {
+    margin: 4em 0 2em 0;
+  }
+
+  .sch {
+    margin: 4em 0 4em 0;
+  }
+  .imgg {
+    width: 100%;
+  }
+  .para {
+    display: block;
+    width: 17em;
+    line-height: 1.5em;
+    margin: 4em 0 4em 0;
+    color: #000;
+    font-size: 21px;
+    text-align: left;
+  }
+  p a {
+    color: #000;
+    text-shadow: 0.8px 0.1px #000;
+    font-size: 22px;
+  }
+  .para-link {
+    margin: 1.5em 0 1.5em 0;
+  }
+
+  .b-art {
+    margin: 0;
+    padding: 0;
+  }
+  div.dir {
+    background-color: #000;
+    height: 20em;
+    color: #fff;
+    padding: 50px 5px 25px 20px;
+  }
+  .bb {
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+  .bb p {
+    font-size: 2.5em;
+    font-weight: normal;
+    /* text-shadow: 0.8px 0.1px #fff; */
+  }
+  .see p a {
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 0.8px 0.1px #fff;
+    text-decoration: underline;
+  }
+  .see i {
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 0.8px 0.1px #fff;
+    text-decoration: underline;
+  }
+  .see {
+    margin: 3.5em 0;
+  }
+
+  .rec small {
+    color: #8080804c;
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+  .rec {
+    margin: 3em 0 0 0;
+    padding: 30px 0 20px 20px;
+  }
+
+  .box-model {
+    display: flex;
+    padding: 20px;
+  }
+  .box-model1 {
+    display: flex;
+  }
+  .row img {
+    width: 100%;
+  }
+  .img-model {
+    padding: 40px;
+  }
+  .row p {
+    font-size: 22px;
+    margin: 1.8em 0 0 0;
+  }
+
+  .col2 {
+    margin-top: 4em;
+  }
+  .a-work {
+    padding: 25px 25px 20px 25px;
+  }
+  .a-work a {
+    font-size: 22px;
+    color: #000;
+    text-shadow: 0.8px 0.1px #000;
+    text-decoration: underline;
+  }
+
+  article.dire {
+    background-color: #000;
+    height: 100%;
+    color: #fff;
+    display: block;
+    padding: 55px 55px 15px 55px;
+    margin-top: 7em;
+  }
+  .hh h2 {
+    text-align: center;
+    font-size: 36px;
+    padding: 40px;
+    text-shadow: 0.3px 0.1px #fff;
+    font-weight: normal;
+  }
+  .cl-img {
+    display: flex;
+    justify-content: space-between;
+  }
+  article.dire img {
+    width: 11%;
+  }
+  .cl-row {
+    display: flex;
+    justify-content: center;
+  }
+  .cl-row img {
+    margin: 4em 6em;
+  }
+  .foot-container {
+    display: none;
+  }
+  .foot-copy p {
+    font-size: 20px;
+  }
+  .foot-copy a {
+    font-size: 18px;
+    font-weight: normal;
+    text-shadow: none;
+    text-decoration: underline;
+  }
+  .foot-container-mobile {
+    display: grid;
+    padding: 20px;
+  }
+  div.foot-all {
+    display: flex;
+    justify-content: flex-start;
+  }
+  ul.foot {
+    display: grid;
+    line-height: 0.38;
+    list-style: none;
+  }
+  
+}
